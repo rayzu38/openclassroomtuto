@@ -2,6 +2,7 @@ body {
   /* Ici on utilise le sélecteur body pour appliquer une police et une taille par défaut pour les éléments */
   font-family: 'Manrope', sans-serif;
   font-size: 1em;
+  background-color: #1F2039;
 }
 
 a {
@@ -23,3 +24,21 @@ h1 {
 p {
   font-size: 1.1em;
 }
+
+div.divtop {
+  background-color: white;
+}
+
+.liens {
+  color: #242424;
+}
+
+p, h2, ul li {
+  color: #F9F8FF;
+  background-color: rgb(5, 0, 51);
+}
+
+.pas {
+  background:linear-gradient(90deg, #8E86B5 , #ACAEED ); ;
+}
+
