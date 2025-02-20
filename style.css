@@ -26,6 +26,7 @@ h1 {
 
 h2 {
   color: #f9f8ff;
+  margin: 10px 0 10px 0;
 }
 
 p,
@@ -36,6 +37,7 @@ li {
 
 header,
 footer {
+  padding: 20px 50px 20px 50px;
   background-color: white;
 }
 
@@ -59,6 +61,17 @@ a:hover {
 }
 
 .carre-contenu {
+  padding: 50px;
   border-right: 1px solid #8e86b5;
   border-bottom: 1px solid #8e86b5;
+}
+
+section {
+  padding: 80px;
+}
+
+.a-propos-main{
+  width: 80%;
+  margin: auto;
+
 }
