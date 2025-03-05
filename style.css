@@ -30,6 +30,7 @@ h2 {
 
 p,
 li {
+  margin: 0 0 50px 0;
   font-size: 1.1em;
   color: #f9f8ff;
 }
@@ -44,6 +45,7 @@ footer {
   background: linear-gradient(#8e86b5, #acaeed);
   color: white;
   border-radius: 50px;
+  margin: 5px;
   padding: 20px 30px;
 }
 
@@ -54,6 +56,7 @@ a:hover {
 .cta:hover {
   background: linear-gradient(#696484, #8788ba);
   text-decoration: none;
+
 }
 
 .lien-icone:hover {
@@ -75,10 +78,23 @@ a:hover {
 }
 
 section {
+  display: flex;
+  justify-content: space-between;
   padding: 80px;
+  
 }
 
 .a-propos-main {
   width: 50%;
   margin: auto;
 }
+
+
+nav,footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+}
+
+
